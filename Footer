@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>BOOKLER</title>
+  </head>
+  <body class="mt-5">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">BOOKLER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Local Books</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recomennded Books</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  List
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Adventure</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Advance</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <body>
+        <section id="jumbroton" class="jumbroton class= mb-5">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <img src="WhatsApp Image 2021-09-30 at 10.19.34 AM.jpg"width="25%"class="rounded-circle img-thumbnail">
+            <p></p>
+          <h1 class="display-4">BOOKLER</h1>
+          <p class="lead">Website ini menjual banyak buku buku berkualitas dan sangat up to date. Dimana kita tidak hanya 
+              menjual buku lokal, melainkan menjual berbagai macam buku impor. Dimana kalian sebagai pembaca tidak akan kecewa 
+              dengan pilihan buku yang sudah kami jual.
+          </p>
+        </div>
+      </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center ">
+                    <h2>About us</h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-justify">
+                    <p>BOOKLER adalah website toko buku yang di buat oleh sekelompok mahasiswa Telkom University dimana website ini
+                        bertujuan untuk mengembangkan buku buku lokal yang susah untuk di temukan, dan juga website ini tersedia untuk
+                        kalian para penulis dimana kalian memiliki buku buku yang menarik dan ingin di publisk atau di jual. Dimana kami 
+                        sebagai toko buku yang menjual berbagai macam buku siap untuk mempromosikan buku anda.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section id="contak" class="contaak class= mb-5">
+            <div class="container">
+                <div class="row pt-4 mb">
+                    <div class="col text-center">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-4">
+                    <div class="card text-white bg-secondary mb-3" style="max-width: 26rem;">
+                        <div class="card-body text-center">
+                          <h5 class="card-title">Contak Us</h5>
+                          <p class="card-text">Silahkan hubungi kami jika ada kendala.</p>
+                        </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><h1>Location</h1></li>
+                    <li class="list-group-item">Office center</li>
+                    <li class="list-group-item">Bekasi / boulefard raya / NO.3</li>
+                    <li class="list-group-item">Jawa Barat / Indonesia</li>
+                    
+                  </ul>
+            </div>
+
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-group">
+                      <label for="Nama ">Nama</label>
+                      <input type="email" class="form-control" id="Nama" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                        <label for="email ">email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                      </div>
+                      <div class="form-group">
+                        <label for="Alamat ">Alamat</label>
+                        <input type="email" class="form-control" id="Alamat" aria-describedby="emailHelp">
+                      </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </section>
+        </section>
+
+        <footer class="bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col text-center">
+                        <p>Copyright 2021</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+            
+        
+      
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
